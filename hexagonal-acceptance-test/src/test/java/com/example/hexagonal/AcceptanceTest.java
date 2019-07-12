@@ -33,7 +33,7 @@ public class AcceptanceTest {
         "et up, stand up, stand up for your rights / Get up, stand up, don’t give up the fight!");
 
     //Given
-    Mockito.when(hardcodedAdapter.getListOfAdapter()).thenReturn(expectedListOfMusic);
+    Mockito.when(hardcodedAdapter.getListOfMusic()).thenReturn(expectedListOfMusic);
 
     //When
     List<String> musics = musicReader.readMusic();

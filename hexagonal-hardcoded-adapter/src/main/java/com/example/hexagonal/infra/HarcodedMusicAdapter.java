@@ -6,7 +6,7 @@ import java.util.List;
 
 public class HarcodedMusicAdapter implements HardcodedAdapter {
 
-  public List<String> getListOfAdapter() {
+  public List<String> getListOfMusic() {
     return Arrays.asList("I'll stop wearing black when they make a darker color",
         "Cardi B, straight stuntin', can't tell me nothin', Bossed up and I changed the game",
         "Whenever you feel like letting go and you’ve got your back against the wall. Hold on, just hold on, cause you’re gonna take a few low blows",

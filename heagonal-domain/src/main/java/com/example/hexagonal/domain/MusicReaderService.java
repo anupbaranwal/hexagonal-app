@@ -14,6 +14,6 @@ public class MusicReaderService implements MusicReader {
 
   @Override
   public List<String> readMusic() {
-    return hardcodedAdapter.getListOfAdapter();
+    return hardcodedAdapter.getListOfMusic();
   }
 }
