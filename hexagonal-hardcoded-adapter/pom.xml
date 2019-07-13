@@ -13,7 +13,7 @@
   <dependencies>
     <dependency>
       <groupId>com.example.hexagonal</groupId>
-      <artifactId>heagonal-app-domain</artifactId>
+      <artifactId>hexagonal-domain</artifactId>
       <version>0.0.1-SNAPSHOT</version>
       <scope>compile</scope>
     </dependency>

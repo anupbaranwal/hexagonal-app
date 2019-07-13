@@ -10,7 +10,7 @@
   <version>0.0.1-SNAPSHOT</version>
   <modules>
     <module>hexagonal-bootstrap</module>
-    <module>heagonal-domain</module>
+    <module>hexagonal-domain</module>
     <module>hexagonal-acceptance-test</module>
     <module>hexagonal-hardcoded-adapter</module>
   </modules>
