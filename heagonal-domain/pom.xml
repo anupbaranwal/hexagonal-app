@@ -9,7 +9,7 @@
   </parent>
   <modelVersion>4.0.0</modelVersion>
 
-  <artifactId>heagonal-app-domain</artifactId>
+  <artifactId>heagonal-domain</artifactId>
 
 
 </project>
