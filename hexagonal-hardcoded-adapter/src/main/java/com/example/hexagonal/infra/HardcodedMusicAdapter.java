@@ -4,7 +4,7 @@ import com.example.hexagonal.domain.port.HardcodedAdapter;
 import java.util.Arrays;
 import java.util.List;
 
-public class HarcodedMusicAdapter implements HardcodedAdapter {
+public class HardcodedMusicAdapter implements HardcodedAdapter {
 
   public List<String> getListOfMusic() {
     return Arrays.asList("I'll stop wearing black when they make a darker color",
