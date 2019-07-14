@@ -1,10 +1,11 @@
 package com.example.hexagonal.infra;
 
-import com.example.hexagonal.domain.port.HardcodedAdapter;
+import com.example.hexagonal.domain.port.MusicRepository;
+
 import java.util.Arrays;
 import java.util.List;
 
-public class HardcodedMusicAdapter implements HardcodedAdapter {
+public class HardcodedMusicRepository implements MusicRepository {
 
   public List<String> getListOfMusic() {
     return Arrays.asList("I'll stop wearing black when they make a darker color",
