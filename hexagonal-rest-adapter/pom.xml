@@ -9,11 +9,12 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>hexagonal-jpa-adapter</artifactId>
+    <artifactId>hexagonal-rest-adapter</artifactId>
+
     <dependencies>
         <dependency>
             <groupId>com.example.hexagonal</groupId>
-            <artifactId>hexagonal-contract-domain</artifactId>
+            <artifactId>hexagonal-domain</artifactId>
             <version>${project.parent.version}</version>
             <scope>compile</scope>
         </dependency>

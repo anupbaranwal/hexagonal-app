@@ -1,12 +1,8 @@
 package com.example.hexagonal.infra.entity;
 
 import lombok.Data;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
-import javax.persistence.GenerationType;
-import javax.persistence.GeneratedValue;
+
+import javax.persistence.*;
 
 @Table(name = "T_MUSIC")
 @Entity
@@ -20,8 +16,8 @@ public class Music {
     @Column(name = "LYRICS")
     private String lyrics;
 
-    @Column(name = "AUTHOR_NAME")
-    private String authorName;
+    @Column(name = "ARTIST_NAME")
+    private String artist;
 
     @Column(name = "RATING")
     private int rating;
