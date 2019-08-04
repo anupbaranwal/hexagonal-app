@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@RequestMapping("/v1/musics")
+@RequestMapping("/api/v1/musics")
 public class MusicResource {
 
     @Autowired
