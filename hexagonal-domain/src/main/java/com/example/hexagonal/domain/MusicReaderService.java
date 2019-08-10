@@ -3,7 +3,6 @@ package com.example.hexagonal.domain;
 import com.example.hexagonal.domain.model.MusicDto;
 import com.example.hexagonal.domain.port.MusicReader;
 import com.example.hexagonal.domain.port.MusicRepository;
-
 import java.util.List;
 
 public class MusicReaderService implements MusicReader {

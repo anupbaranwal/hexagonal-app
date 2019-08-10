@@ -8,7 +8,8 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class MusicDto {
-    private String lyrics;
-    private String artist;
-    private double rating;
+
+  private String lyrics;
+  private String artist;
+  private double rating;
 }

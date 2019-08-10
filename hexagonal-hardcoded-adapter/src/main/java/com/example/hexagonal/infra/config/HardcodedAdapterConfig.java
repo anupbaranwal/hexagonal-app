@@ -5,8 +5,9 @@ import com.example.hexagonal.infra.HardcodedMusicRepository;
 import org.springframework.context.annotation.Bean;
 
 public class HardcodedAdapterConfig {
-    @Bean
-    public MusicRepository hardCodedMusicRepository() {
-        return new HardcodedMusicRepository();
-    }
+
+  @Bean
+  public MusicRepository hardCodedMusicRepository() {
+    return new HardcodedMusicRepository();
+  }
 }

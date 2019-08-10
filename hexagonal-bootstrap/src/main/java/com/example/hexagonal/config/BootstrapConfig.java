@@ -8,4 +8,6 @@ import org.springframework.context.annotation.Import;
 @Configuration
 //@Import({RestAdapterConfig.class, JpaAdapterConfig.class})
 @Import({RestAdapterConfig.class, HardcodedAdapterConfig.class})
-public class BootstrapConfig {}
+public class BootstrapConfig {
+
+}

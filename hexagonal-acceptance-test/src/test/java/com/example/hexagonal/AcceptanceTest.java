@@ -30,10 +30,17 @@ public class AcceptanceTest {
 
   @Test
   public void shouldReturnAListOfMusicWhenRequested() {
-    List<MusicDto> expectedListOfMusic = Arrays.asList(new MusicDto("I'll stop wearing black when they make a darker color", "wilson", 4.5),
-            new MusicDto("Cardi B, straight stuntin', can't tell me nothin', Bossed up and I changed the game", "Bruno Mars", 4.2),
-            new MusicDto("Whenever you feel like letting go and you’ve got your back against the wall. Hold on, just hold on, cause you’re gonna take a few low blows", "Skepta", 4.2),
-            new MusicDto("You only get one shot, do not miss your chance to blow. This opportunity comes once in a lifetime you better", "Eminem", 4.5));
+    List<MusicDto> expectedListOfMusic = Arrays.asList(
+        new MusicDto("I'll stop wearing black when they make a darker color", "wilson", 4.5),
+        new MusicDto(
+            "Cardi B, straight stuntin', can't tell me nothin', Bossed up and I changed the game",
+            "Bruno Mars", 4.2),
+        new MusicDto(
+            "Whenever you feel like letting go and you’ve got your back against the wall. Hold on, just hold on, cause you’re gonna take a few low blows",
+            "Skepta", 4.2),
+        new MusicDto(
+            "You only get one shot, do not miss your chance to blow. This opportunity comes once in a lifetime you better",
+            "Eminem", 4.5));
 
     //Given
     Mockito.when(musicRepository.getListOfMusic()).thenReturn(expectedListOfMusic);
